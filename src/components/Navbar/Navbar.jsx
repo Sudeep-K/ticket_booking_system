@@ -5,7 +5,7 @@ import { IoTicket } from "react-icons/io5";
 const Navbar = () => {
 
   return (
-    <header className='py-4 bg-[#252D3C] text-white'>
+    <header className='py-4 bg-[#252D3C] text-white '>
         <div className='max-w-6xl mx-auto flex justify-between items-center'>
             <nav className='flex flex-row items-center gap-16'>
                 <div className='flex flex-row items-center gap-4'>

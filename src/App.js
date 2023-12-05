@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import EventDetails from './pages/EventDetails/EventDetails';
+import ConfirmOrder from './pages/ConfirmOrder/ConfirmOrder';
+import Invoice from './pages/Invoice/Invoice';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/confirm-order/:id/payment" element={<Invoice />} />
         <Route path="/event-details/:id" element={<EventDetails />} />
+        <Route path="/confirm-order/:id" element={<ConfirmOrder />} />
       </Routes>
     </div>
   );
